@@ -104,3 +104,7 @@ dist
 .tern-port
 
 .vercel
+
+.idea
+
+.DS_Store
