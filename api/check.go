@@ -18,6 +18,6 @@ import (
 	"net/http"
 )
 
-func HCheck(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Hello World! from: " + r.URL.Path))
+func Check(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("Check from: " + r.URL.Path))
 }
